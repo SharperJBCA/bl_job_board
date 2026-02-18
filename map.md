@@ -7,7 +7,7 @@ permalink: /map/
 
 # World Map
 
-![World Map](/assets/world-map.png)
+![World Map](/bl_job_board/assets/system_map.svg)
 
 ## Locations
 <ul>

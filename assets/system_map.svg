@@ -1,0 +1,1004 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940, 2025-05-08)"
+   sodipodi:docname="system_map.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="1.5288916"
+     inkscape:cx="430.05012"
+     inkscape:cy="733.21093"
+     inkscape:window-width="1472"
+     inkscape:window-height="863"
+     inkscape:window-x="1548"
+     inkscape:window-y="101"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       id="grid3"
+       units="mm"
+       originx="0"
+       originy="0"
+       spacingx="0.99999998"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       enabled="true"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#Polkadots-med"
+       preserveAspectRatio="xMidYMid"
+       id="pattern37"
+       patternTransform="translate(9.5000046,-6.0833297)"
+       x="0"
+       y="0" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="10"
+       height="10"
+       patternTransform="translate(0,0) scale(10,10)"
+       preserveAspectRatio="xMidYMid"
+       id="Polkadots-med"
+       inkscape:stockid="Polka dots, medium"
+       inkscape:label="Polka dots medium"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <circle
+         style="stroke:none"
+         cx="2.567"
+         cy="0.810"
+         r="0.15"
+         id="circle406" />
+      <circle
+         style="stroke:none"
+         cx="3.048"
+         cy="2.33"
+         r="0.15"
+         id="circle408" />
+      <circle
+         style="stroke:none"
+         cx="4.418"
+         cy="2.415"
+         r="0.15"
+         id="circle410" />
+      <circle
+         style="stroke:none"
+         cx="1.844"
+         cy="3.029"
+         r="0.15"
+         id="circle412" />
+      <circle
+         style="stroke:none"
+         cx="6.08"
+         cy="1.363"
+         r="0.15"
+         id="circle414" />
+      <circle
+         style="stroke:none"
+         cx="5.819"
+         cy="4.413"
+         r="0.15"
+         id="circle416" />
+      <circle
+         style="stroke:none"
+         cx="4.305"
+         cy="4.048"
+         r="0.15"
+         id="circle418" />
+      <circle
+         style="stroke:none"
+         cx="5.541"
+         cy="3.045"
+         r="0.15"
+         id="circle420" />
+      <circle
+         style="stroke:none"
+         cx="4.785"
+         cy="5.527"
+         r="0.15"
+         id="circle422" />
+      <circle
+         style="stroke:none"
+         cx="2.667"
+         cy="5.184"
+         r="0.15"
+         id="circle424" />
+      <circle
+         style="stroke:none"
+         cx="7.965"
+         cy="1.448"
+         r="0.15"
+         id="circle426" />
+      <circle
+         style="stroke:none"
+         cx="7.047"
+         cy="5.049"
+         r="0.15"
+         id="circle428" />
+      <circle
+         style="stroke:none"
+         cx="4.340"
+         cy="0.895"
+         r="0.15"
+         id="circle430" />
+      <circle
+         style="stroke:none"
+         cx="7.125"
+         cy="0.340"
+         r="0.15"
+         id="circle432" />
+      <circle
+         style="stroke:none"
+         cx="9.550"
+         cy="1.049"
+         r="0.15"
+         id="circle434" />
+      <circle
+         style="stroke:none"
+         cx="7.006"
+         cy="2.689"
+         r="0.15"
+         id="circle436" />
+      <circle
+         style="stroke:none"
+         cx="8.909"
+         cy="2.689"
+         r="0.15"
+         id="circle438" />
+      <circle
+         style="stroke:none"
+         cx="9.315"
+         cy="4.407"
+         r="0.15"
+         id="circle440" />
+      <circle
+         style="stroke:none"
+         cx="7.820"
+         cy="3.870"
+         r="0.15"
+         id="circle442" />
+      <circle
+         style="stroke:none"
+         cx="8.270"
+         cy="5.948"
+         r="0.15"
+         id="circle444" />
+      <circle
+         style="stroke:none"
+         cx="7.973"
+         cy="7.428"
+         r="0.15"
+         id="circle446" />
+      <circle
+         style="stroke:none"
+         cx="9.342"
+         cy="8.072"
+         r="0.15"
+         id="circle448" />
+      <circle
+         style="stroke:none"
+         cx="8.206"
+         cy="9.315"
+         r="0.15"
+         id="circle450" />
+      <circle
+         style="stroke:none"
+         cx="9.682"
+         cy="9.475"
+         r="0.15"
+         id="circle452" />
+      <circle
+         style="stroke:none"
+         cx="9.688"
+         cy="6.186"
+         r="0.15"
+         id="circle454" />
+      <circle
+         style="stroke:none"
+         cx="3.379"
+         cy="6.296"
+         r="0.15"
+         id="circle456" />
+      <circle
+         style="stroke:none"
+         cx="2.871"
+         cy="8.204"
+         r="0.15"
+         id="circle458" />
+      <circle
+         style="stroke:none"
+         cx="4.59"
+         cy="8.719"
+         r="0.15"
+         id="circle460" />
+      <circle
+         style="stroke:none"
+         cx="3.181"
+         cy="9.671"
+         r="0.15"
+         id="circle462" />
+      <circle
+         style="stroke:none"
+         cx="5.734"
+         cy="7.315"
+         r="0.15"
+         id="circle464" />
+      <circle
+         style="stroke:none"
+         cx="6.707"
+         cy="6.513"
+         r="0.15"
+         id="circle466" />
+      <circle
+         style="stroke:none"
+         cx="5.730"
+         cy="9.670"
+         r="0.15"
+         id="circle468" />
+      <circle
+         style="stroke:none"
+         cx="6.535"
+         cy="8.373"
+         r="0.15"
+         id="circle470" />
+      <circle
+         style="stroke:none"
+         cx="4.37"
+         cy="7.154"
+         r="0.15"
+         id="circle472" />
+      <circle
+         style="stroke:none"
+         cx="0.622"
+         cy="7.25"
+         r="0.15"
+         id="circle474" />
+      <circle
+         style="stroke:none"
+         cx="0.831"
+         cy="5.679"
+         r="0.15"
+         id="circle476" />
+      <circle
+         style="stroke:none"
+         cx="1.257"
+         cy="8.519"
+         r="0.15"
+         id="circle478" />
+      <circle
+         style="stroke:none"
+         cx="1.989"
+         cy="6.877"
+         r="0.15"
+         id="circle480" />
+      <circle
+         style="stroke:none"
+         cx="0.374"
+         cy="3.181"
+         r="0.15"
+         id="circle482" />
+      <circle
+         style="stroke:none"
+         cx="1.166"
+         cy="1.664"
+         r="0.15"
+         id="circle484" />
+      <circle
+         style="stroke:none"
+         cx="1.151"
+         cy="0.093"
+         r="0.15"
+         id="circle486" />
+      <circle
+         style="stroke:none"
+         cx="1.151"
+         cy="10.093"
+         r="0.15"
+         id="circle488" />
+      <circle
+         style="stroke:none"
+         cx="1.302"
+         cy="4.451"
+         r="0.15"
+         id="circle490" />
+      <circle
+         style="stroke:none"
+         cx="3.047"
+         cy="3.763"
+         r="0.15"
+         id="circle492" />
+    </pattern>
+    <rect
+       x="536.69293"
+       y="634.96061"
+       width="45.354332"
+       height="37.795275"
+       id="rect35" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;stroke:#808080;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 152,116 v 9 l 4,4 h 6"
+       id="path60"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#e2b3a3;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 170,132 11.25,0"
+       id="path59"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#c164bf;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 137,124 -19,0 -13,-13 V 62.999998"
+       id="path50"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#e2a3e1;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 83.000002,124 h 4 L 100,111 100,62.999998"
+       id="path49"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#808080;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 120.05834,41.999999 h -9 l -6,6 v 6.999999"
+       id="path45"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#808080;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 85.05834,41.999999 h 9 l 6,6 v 6.999999"
+       id="path46"
+       sodipodi:nodetypes="cccc" />
+    <path
+       id="rect36"
+       style="fill:url(#pattern37);stroke:#000000"
+       d="m 164.5,153.9166 35,-2e-5 v 30.00001 l -10,10 -35,-1e-5 V 163.9166 Z"
+       sodipodi:nodetypes="ccccccc" />
+    <path
+       style="fill:none;stroke:#cf7f65;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 171,175 h -40 l -4,-5 0,-25 5,-6 h 5"
+       id="path43"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       style="fill:none;stroke:#e5d057;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 83.000002,129 137,129"
+       id="path42"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#e2b3a3;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 105,191.99999 105,146 118,134 h 19"
+       id="path41"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#e2d8a3;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 83.000002,134 4,0 L 100,146 l 0,45.99999"
+       id="path40"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#abe2a3;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 110,192.49999 v -8 l 5,-4.5 h 56"
+       id="path39"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#e2d8a3;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 26.000001,134 17,0"
+       id="path30"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#808080;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 58.000001,107 v -9.000003 l -4,-4 -6,0"
+       id="path20"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#cbb959;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 39.000001,107 h 18"
+       id="path16"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#cbb959;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 58.000001,108 v 11 l 11.000001,10 6,0"
+       id="path15"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#e2d8a3;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 48.000001,134 H 75.000002"
+       id="path14"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#808080;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 66.999999,156 v -8 l -9.999998,-9 h -9"
+       id="path13"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#808080;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 100,222.99999 v -8 l -5.627584,-6.33103 -2.372414,-2.66897 -11,0"
+       id="path4"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:none;stroke:#a3a3e2;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 105.01873,223.19104 v -23.07741 0"
+       id="path2" />
+    <path
+       style="fill:none;stroke:#a3a3e2;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 110,222.99999 v -8 l 10,-9 h 9"
+       id="path3"
+       sodipodi:nodetypes="cccc" />
+    <ellipse
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.999998;stroke-dasharray:none"
+       id="ellipse2"
+       cx="130"
+       cy="206"
+       rx="2.0000014"
+       ry="2.000001" />
+    <path
+       style="fill:none;stroke:#a3a3e2;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 105.01873,253.88275 v -23.07741 0"
+       id="path6" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.999992;stroke-dasharray:none"
+       id="rect3"
+       width="24.000008"
+       height="8"
+       x="93"
+       y="223"
+       ry="4" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.999997;stroke-dasharray:none"
+       id="rect1"
+       width="19"
+       height="8"
+       x="95.51873"
+       y="192.11363"
+       ry="4" />
+    <ellipse
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.999998;stroke-dasharray:none"
+       id="ellipse3"
+       cx="80"
+       cy="206"
+       rx="2.0000014"
+       ry="2.000001" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;font-family:'Share Tech Mono';-inkscape-font-specification:'Share Tech Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       x="66.385429"
+       y="210.97556"
+       id="text4"><tspan
+         sodipodi:role="line"
+         id="tspan4"
+         style="fill:#000000;stroke:none;stroke-width:4"
+         x="66.385429"
+         y="210.97556">Gateway Station</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;font-family:'Share Tech Mono';-inkscape-font-specification:'Share Tech Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       x="120"
+       y="211"
+       id="text5"><tspan
+         sodipodi:role="line"
+         id="tspan5"
+         style="fill:#000000;stroke:none;stroke-width:4"
+         x="120"
+         y="211">Geostationary Orbit</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;font-family:'Share Tech Mono';-inkscape-font-specification:'Share Tech Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       x="117.73471"
+       y="227.97556"
+       id="text6"><tspan
+         sodipodi:role="line"
+         id="tspan6"
+         style="fill:#000000;stroke:none;stroke-width:4"
+         x="117.73471"
+         y="227.97556">Low Orbit</tspan></text>
+    <ellipse
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.999997;stroke-dasharray:none"
+       id="path1"
+       cx="105"
+       cy="256"
+       rx="4.0000014"
+       ry="4" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;font-family:'Share Tech Mono';-inkscape-font-specification:'Share Tech Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       x="109.71778"
+       y="257.31421"
+       id="text7"><tspan
+         sodipodi:role="line"
+         id="tspan7"
+         style="fill:#000000;stroke:none;stroke-width:4"
+         x="109.71778"
+         y="257.31421">Spe (Draconis-3)</tspan></text>
+    <ellipse
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.999997;stroke-dasharray:none"
+       id="ellipse7"
+       cx="25"
+       cy="134"
+       rx="4.0000014"
+       ry="4" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;font-family:'Share Tech Mono';-inkscape-font-specification:'Share Tech Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       x="6.0956697"
+       y="142.31422"
+       id="text8"><tspan
+         sodipodi:role="line"
+         id="tspan8"
+         style="fill:#000000;stroke:none;stroke-width:4"
+         x="6.0956697"
+         y="142.31422">Aegir</tspan><tspan
+         sodipodi:role="line"
+         style="fill:#000000;stroke:none;stroke-width:4"
+         x="6.0956697"
+         y="145.84201"
+         id="tspan9">(Hycean-class)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;font-family:'Share Tech Mono';-inkscape-font-specification:'Share Tech Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       x="95"
+       y="264"
+       id="text10"><tspan
+         sodipodi:role="line"
+         id="tspan10"
+         style="fill:#000000;stroke:none;stroke-width:4"
+         x="95"
+         y="264">(Earth-class)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;font-family:'Share Tech Mono';-inkscape-font-specification:'Share Tech Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       x="116.61174"
+       y="196.97556"
+       id="text11"><tspan
+         sodipodi:role="line"
+         id="tspan11"
+         style="fill:#000000;stroke:none;stroke-width:4"
+         x="116.61174"
+         y="196.97556">Intercept</tspan></text>
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.999997;stroke-dasharray:none"
+       id="rect11"
+       width="19"
+       height="8"
+       x="-144.5"
+       y="40"
+       ry="4"
+       transform="rotate(-90)" />
+    <ellipse
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.999998;stroke-dasharray:none"
+       id="ellipse11"
+       cx="67"
+       cy="157"
+       rx="2.0000014"
+       ry="2.000001" />
+    <ellipse
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.999998;stroke-dasharray:none"
+       id="ellipse12"
+       cx="38"
+       cy="107"
+       rx="2.0000014"
+       ry="2.000001" />
+    <ellipse
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.999998;stroke-dasharray:none"
+       id="ellipse13"
+       cx="58.000004"
+       cy="107"
+       rx="2.0000014"
+       ry="2.000001" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.999997;stroke-dasharray:none"
+       id="rect13"
+       width="29.000004"
+       height="8"
+       x="-146"
+       y="75"
+       ry="4"
+       transform="rotate(-90)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;font-family:'Share Tech Mono';-inkscape-font-specification:'Share Tech Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       x="61.585918"
+       y="107.52023"
+       id="text17"><tspan
+         sodipodi:role="line"
+         style="fill:#000000;stroke:none;stroke-width:4"
+         x="61.585918"
+         y="107.52023"
+         id="tspan31">Low Orbit</tspan><tspan
+         sodipodi:role="line"
+         style="fill:#000000;stroke:none;stroke-width:4"
+         x="61.585918"
+         y="111.04802"
+         id="tspan18" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;font-family:'Share Tech Mono';-inkscape-font-specification:'Share Tech Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       x="26.585918"
+       y="111.97556"
+       id="text20"><tspan
+         sodipodi:role="line"
+         style="fill:#000000;stroke:none;stroke-width:4"
+         x="26.585918"
+         y="111.97556"
+         id="tspan19">Hypatia</tspan><tspan
+         sodipodi:role="line"
+         style="fill:#000000;stroke:none;stroke-width:4"
+         x="26.585918"
+         y="115.50335"
+         id="tspan20" /></text>
+    <ellipse
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.999998;stroke-dasharray:none"
+       id="ellipse20"
+       cx="47.000004"
+       cy="94"
+       rx="2.0000014"
+       ry="2.000001" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;font-family:'Share Tech Mono';-inkscape-font-specification:'Share Tech Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       x="39.61618"
+       y="89.975555"
+       id="text24"><tspan
+         sodipodi:role="line"
+         style="fill:#000000;stroke:none;stroke-width:4"
+         x="39.61618"
+         y="89.975555"
+         id="tspan23">Omens Eye</tspan><tspan
+         sodipodi:role="line"
+         style="fill:#000000;stroke:none;stroke-width:4"
+         x="39.61618"
+         y="93.503342"
+         id="tspan24" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;font-family:'Share Tech Mono';-inkscape-font-specification:'Share Tech Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       x="55.441879"
+       y="162.52022"
+       id="text26"><tspan
+         sodipodi:role="line"
+         style="fill:#000000;stroke:none;stroke-width:4"
+         x="55.441879"
+         y="162.52022"
+         id="tspan25">Anchorage Point</tspan><tspan
+         sodipodi:role="line"
+         style="fill:#000000;stroke:none;stroke-width:4"
+         x="55.441879"
+         y="166.048"
+         id="tspan26" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;font-family:'Share Tech Mono';-inkscape-font-specification:'Share Tech Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       x="71.585922"
+       y="149.52022"
+       id="text28"><tspan
+         sodipodi:role="line"
+         style="fill:#000000;stroke:none;stroke-width:4"
+         x="71.585922"
+         y="149.52022"
+         id="tspan27">Intercept</tspan><tspan
+         sodipodi:role="line"
+         style="fill:#000000;stroke:none;stroke-width:4"
+         x="71.585922"
+         y="153.048"
+         id="tspan28" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;font-family:'Share Tech Mono';-inkscape-font-specification:'Share Tech Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       x="36.585918"
+       y="149.52022"
+       id="text30"><tspan
+         sodipodi:role="line"
+         style="fill:#000000;stroke:none;stroke-width:4"
+         x="36.585918"
+         y="149.52022"
+         id="tspan29">Low Orbit</tspan><tspan
+         sodipodi:role="line"
+         style="fill:#000000;stroke:none;stroke-width:4"
+         x="36.585918"
+         y="153.048"
+         id="tspan30" /></text>
+    <ellipse
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.999997;stroke-dasharray:none"
+       id="ellipse32"
+       cx="185"
+       cy="132"
+       rx="4.0000014"
+       ry="4" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;font-family:'Share Tech Mono';-inkscape-font-specification:'Share Tech Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       x="179.71779"
+       y="142.31422"
+       id="text32"><tspan
+         sodipodi:role="line"
+         id="tspan32"
+         style="fill:#000000;stroke:none;stroke-width:4"
+         x="179.71779"
+         y="142.31422">Koyopa</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;font-family:'Share Tech Mono';-inkscape-font-specification:'Share Tech Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       x="179.46661"
+       y="145.10823"
+       id="text33"><tspan
+         sodipodi:role="line"
+         id="tspan33"
+         style="fill:#000000;stroke:none;stroke-width:4"
+         x="179.46661"
+         y="145.10823">(Fallow-class)</tspan></text>
+    <path
+       style="fill:none;stroke:#abe2a3;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 179,176.99999 h 10"
+       id="path57"
+       sodipodi:nodetypes="cc" />
+    <ellipse
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.999998;stroke-dasharray:none"
+       id="ellipse33"
+       cx="190"
+       cy="177"
+       rx="2.0000014"
+       ry="2.000001" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;font-family:'Share Tech Mono';-inkscape-font-specification:'Share Tech Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       x="187.09024"
+       y="182"
+       id="text34"><tspan
+         sodipodi:role="line"
+         id="tspan34"
+         style="fill:#000000;stroke:none;stroke-width:4"
+         x="187.09024"
+         y="182">Pirx</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text35"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:'Share Tech Mono';-inkscape-font-specification:'Share Tech Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect35);display:inline;fill:#ffffff;stroke:#cbb959;stroke-width:15.1181;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.999997;stroke-dasharray:none"
+       id="rect37"
+       width="19"
+       height="8"
+       x="-186.14621"
+       y="171"
+       ry="4"
+       transform="rotate(-90)" />
+    <path
+       style="fill:none;stroke:#e2b3a3;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 145.5,134 16.5,0"
+       id="path58"
+       sodipodi:nodetypes="cc" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.999997;stroke-dasharray:none"
+       id="rect38"
+       width="19"
+       height="8"
+       x="-141.5"
+       y="162"
+       ry="4"
+       transform="rotate(-90)" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.999997;stroke-dasharray:none"
+       id="rect39"
+       width="29.000004"
+       height="8"
+       x="-146.5"
+       y="137"
+       ry="4"
+       transform="rotate(-90)" />
+    <ellipse
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.999998;stroke-dasharray:none"
+       id="ellipse43"
+       cx="84.058334"
+       cy="42"
+       rx="2.0000014"
+       ry="2.000001" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:2,1;stroke-opacity:1;stroke-dashoffset:0"
+       d="M 0,74.999997 H 210"
+       id="path44" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.999998;stroke-dasharray:none"
+       id="rect44"
+       width="18.000004"
+       height="8"
+       x="93.558334"
+       y="55.000004"
+       ry="4" />
+    <ellipse
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.999998;stroke-dasharray:none"
+       id="ellipse44"
+       cx="121.55833"
+       cy="42.000004"
+       rx="2.0000014"
+       ry="2.000001" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;font-family:'Share Tech Mono';-inkscape-font-specification:'Share Tech Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       x="78.705559"
+       y="38.520226"
+       id="text47"><tspan
+         sodipodi:role="line"
+         style="fill:#000000;stroke:none;stroke-width:4"
+         x="78.705559"
+         y="38.520226"
+         id="tspan46">Jump Gate</tspan><tspan
+         sodipodi:role="line"
+         style="fill:#000000;stroke:none;stroke-width:4"
+         x="78.705559"
+         y="42.048012"
+         id="tspan47" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;font-family:'Share Tech Mono';-inkscape-font-specification:'Share Tech Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       x="117.70554"
+       y="38.520226"
+       id="text49"><tspan
+         sodipodi:role="line"
+         style="fill:#000000;stroke:none;stroke-width:4"
+         x="117.70554"
+         y="38.520226"
+         id="tspan48">Waypoint Station</tspan><tspan
+         sodipodi:role="line"
+         style="fill:#000000;stroke:none;stroke-width:4"
+         x="117.70554"
+         y="42.048012"
+         id="tspan49" /></text>
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:1;stroke-dasharray:2,1;stroke-dashoffset:2.3;stroke-opacity:1"
+       id="rect50"
+       width="18.003542"
+       height="5.9999995"
+       x="93.496307"
+       y="72"
+       ry="2.9999998" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;font-family:'Share Tech Mono';-inkscape-font-specification:'Share Tech Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       x="4.4708433"
+       y="12.408298"
+       id="text51"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:'Share Tech Mono';-inkscape-font-specification:'Share Tech Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke:none;stroke-width:4"
+         x="4.4708433"
+         y="12.408298"
+         id="tspan50">∆-Draconis </tspan><tspan
+         sodipodi:role="line"
+         style="fill:#000000;stroke:none;stroke-width:4"
+         x="4.4708433"
+         y="18.572748"
+         id="tspan51" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Share Tech Mono';-inkscape-font-specification:'Share Tech Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       x="2.6048911"
+       y="72.040451"
+       id="text53"><tspan
+         sodipodi:role="line"
+         id="tspan53"
+         x="2.6048911"
+         y="72.040451">Outer System</tspan><tspan
+         sodipodi:role="line"
+         id="tspan54"
+         x="2.6048911"
+         y="79.096001"></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Share Tech Mono';-inkscape-font-specification:'Share Tech Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       x="2.6048911"
+       y="80.951103"
+       id="text56"><tspan
+         sodipodi:role="line"
+         id="tspan56">Inner System</tspan><tspan
+         sodipodi:role="line"
+         id="tspan57"></tspan></text>
+    <ellipse
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.999998;stroke-dasharray:none"
+       id="ellipse60"
+       cx="152"
+       cy="115"
+       rx="2.0000014"
+       ry="2.000001" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;font-family:'Share Tech Mono';-inkscape-font-specification:'Share Tech Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       x="134.20256"
+       y="149.50471"
+       id="text60"><tspan
+         sodipodi:role="line"
+         id="tspan60"
+         style="fill:#000000;stroke:none;stroke-width:4"
+         x="134.20256"
+         y="149.50471">Intercept</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;font-family:'Share Tech Mono';-inkscape-font-specification:'Share Tech Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       x="160"
+       y="145"
+       id="text61"><tspan
+         sodipodi:role="line"
+         id="tspan61"
+         style="fill:#000000;stroke:none;stroke-width:4"
+         x="160"
+         y="145">Low Orbit</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;font-family:'Share Tech Mono';-inkscape-font-specification:'Share Tech Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       x="168.41089"
+       y="189.52022"
+       id="text62"><tspan
+         sodipodi:role="line"
+         id="tspan62"
+         style="fill:#000000;stroke:none;stroke-width:4"
+         x="168.41089"
+         y="189.52022">Intercept</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;font-family:'Share Tech Mono';-inkscape-font-specification:'Share Tech Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffffff;stroke:none;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       x="153.61618"
+       y="-99.024445"
+       id="text63"
+       transform="rotate(90)"><tspan
+         sodipodi:role="line"
+         id="tspan63"
+         style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:condensed;font-size:2.82223px;font-family:Futura;-inkscape-font-specification:'Futura, Ultra-Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke:none;stroke-width:4"
+         x="153.61618"
+         y="-99.024445">21 Days</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:condensed;font-size:2.82223px;font-family:Futura;-inkscape-font-specification:'Futura, Ultra-Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffffff;stroke:none;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       x="153.61618"
+       y="-104.31611"
+       id="text64"
+       transform="rotate(90)"><tspan
+         sodipodi:role="line"
+         id="tspan64">45 Days</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:condensed;font-size:2.82223px;font-family:Futura;-inkscape-font-specification:'Futura, Ultra-Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffffff;stroke:none;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       x="207.81627"
+       y="-103.87231"
+       id="text65"
+       transform="rotate(90)"><tspan
+         sodipodi:role="line"
+         id="tspan65"
+         x="207.81627"
+         y="-103.87231">1 Day</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:condensed;font-size:2.82223px;font-family:Futura;-inkscape-font-specification:'Futura, Ultra-Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffffff;stroke:none;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       x="212.55107"
+       y="81.893005"
+       id="text66"
+       transform="rotate(45)"><tspan
+         sodipodi:role="line"
+         id="tspan66"
+         x="212.55107"
+         y="81.893005">1 hour</tspan></text>
+  </g>
+</svg>

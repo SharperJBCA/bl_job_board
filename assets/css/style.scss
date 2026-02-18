@@ -4,254 +4,342 @@
 /* Pull in the theme’s base CSS first */
 @import "minima";
 
-/* ---------- CRT THEME OVERRIDES ---------- */
+/* ============================================================
+   "London Underground" inspired skin (clean, bold, editorial)
+   Keeps your mono fonts, changes colour + layout + nav styling
+   ============================================================ */
 
 :root{
-  --bg: #050806;
-  --fg: #7CFF7A;
-  --fg-dim: rgba(124, 255, 122, 0.72);
-  --grid: rgba(124, 255, 122, 0.08);
-  --glow: rgba(124, 255, 122, 0.35);
-  --warn: #ffd36a;
-  --danger: #ff6b6b;
-  --link: #9CFF9A;
+  /* Core palette */
+  --bg: #f4f4f2;         /* warm paper */
+  --panel: #ffffff;      /* clean card */
+  --ink: #0b0c0c;        /* near-black */
+  --muted: #4b4f54;      /* subdued copy */
+  --line: #d9d9d6;       /* divider lines */
 
+  /* Underground-ish accents */
+  --roundel-red: #e21836;
+  --underground-blue: #003688;
+  --highlight: rgba(0, 54, 136, 0.08);
+
+  /* Links */
+  --link: #003688;
+  --link-hover: #001d4f;
+
+  /* Type (keep your fonts) */
   --mono: "VT323", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
   --mono2: "Share Tech Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+
+  /* Layout */
+  --radius: 14px;
+  --shadow: 0 10px 30px rgba(0,0,0,0.08);
 }
 
-html, body {
+/* Global */
+html, body{
   background: var(--bg);
-  color: var(--fg);
+  color: var(--ink);
   font-family: var(--mono2);
   font-size: 18px;
-  line-height: 1.5;
+  line-height: 1.55;
 }
 
-/* Make the header/footer behave */
-.site-header, .site-footer {
+/* Minima defaults sometimes keep links purple-ish */
+a, a:visited{
+  color: var(--link);
+  text-decoration: none;
+  border-bottom: 2px solid rgba(0, 54, 136, 0.25);
+}
+a:hover{
+  color: var(--link-hover);
+  border-bottom-color: rgba(0, 54, 136, 0.55);
+}
+
+/* Header / footer */
+.site-header, .site-footer{
   border: none;
   background: transparent;
 }
 
-/* Main content spacing and “terminal frame” vibe */
-.wrapper {
+/* Main wrapper becomes a clean "station panel" */
+.wrapper{
   max-width: 980px;
-  padding: 1.2rem 1.4rem;
-  background: rgba(0, 0, 0, 0.25);
-  box-shadow: 0 0 0 1px var(--grid), 0 0 35px rgba(0,0,0,0.6);
-  border-radius: 10px;
+  padding: 1.4rem 1.6rem;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
 }
 
-/* Headings look more retro */
-h1, h2, h3 {
+/* Headings: bold, poster-like, with a red rule */
+h1, h2, h3{
   font-family: var(--mono);
-  letter-spacing: 0.04em;
-  color: var(--fg);
-  text-shadow: 0 0 8px var(--glow);
+  letter-spacing: 0.02em;
+  color: var(--ink);
+  margin-top: 1.2rem;
+  margin-bottom: 0.55rem;
 }
 
-p, li {
-  color: var(--fg-dim);
+h1{
+  font-size: 2.2rem;
+  line-height: 1.05;
+  position: relative;
+  padding-bottom: 0.55rem;
+}
+h1::after{
+  content: "";
+  display: block;
+  height: 6px;
+  border-radius: 999px;
+  background: linear-gradient(to right, var(--roundel-red), var(--underground-blue));
+  margin-top: 0.55rem;
 }
 
-a, a:visited {
-  color: var(--link);
-  text-decoration: none;
-  border-bottom: 1px dotted var(--grid);
+/* Section headings: slim blue marker bar */
+h2{
+  font-size: 1.5rem;
+  position: relative;
+  padding-left: 0.75rem;
 }
-a:hover {
-  text-shadow: 0 0 10px var(--glow);
-  border-bottom-color: rgba(124, 255, 122, 0.4);
+h2::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.18em;
+  width: 6px;
+  height: 0.95em;
+  border-radius: 6px;
+  background: var(--underground-blue);
 }
 
-/* Horizontal rules = divider line */
-hr {
+h3{
+  font-size: 1.2rem;
+  color: var(--ink);
+}
+
+/* Body copy */
+p, li{
+  color: var(--muted);
+}
+
+/* Strong text pops like signage */
+strong{
+  color: var(--ink);
+  font-weight: 700;
+}
+
+/* HRs become crisp separators */
+hr{
   border: none;
   height: 1px;
-  background: linear-gradient(to right, transparent, var(--grid), transparent);
+  background: var(--line);
   margin: 1.2rem 0;
 }
 
-/* Code blocks look like terminal panes */
-pre, code {
+/* Lists: clean bullets again (undo your ▸) */
+ul{
+  list-style: disc;
+  padding-left: 1.25rem;
+}
+li::marker{
+  color: var(--underground-blue);
+}
+
+/* Code blocks: subtle, printed timetable feel */
+pre, code{
   font-family: var(--mono2);
   font-size: 0.95em;
 }
-pre {
-  background: rgba(0,0,0,0.6);
-  border: 1px solid var(--grid);
-  box-shadow: 0 0 14px rgba(124,255,122,0.08);
-}
-code {
-  background: rgba(0,0,0,0.35);
+code{
+  background: rgba(0,0,0,0.04);
+  border: 1px solid rgba(0,0,0,0.08);
   padding: 0.1rem 0.25rem;
-  border: 1px solid rgba(124,255,122,0.12);
+  border-radius: 6px;
+  color: var(--ink);
+}
+pre{
+  background: #0f1214; /* very dark panel */
+  color: #f4f4f2;
+  border: 1px solid rgba(0,0,0,0.15);
+  border-radius: 12px;
+  padding: 0.9rem 1rem;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.12);
+  overflow: auto;
+}
+pre code{
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: inherit;
 }
 
-/* Lists */
-ul { list-style: "▸ "; }
-li::marker { color: var(--fg); }
-
-/* Make job cards feel like “entries” */
-article h1 {
-  margin-bottom: 0.35rem;
+/* Tables: simple transport-board vibe */
+table{
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  font-size: 0.95em;
+}
+th, td{
+  border-bottom: 1px solid var(--line);
+  padding: 0.6rem 0.55rem;
+}
+th{
+  text-align: left;
+  color: var(--ink);
+  background: rgba(0,0,0,0.03);
+}
+tr:hover td{
+  background: var(--highlight);
 }
 
-/* ---------- CRT OVERLAY (scanlines + vignette + flicker) ---------- */
-
-/* Scanlines + subtle vignette */
-body::before {
-  content: "";
-  pointer-events: none;
-  position: fixed;
-  inset: 0;
-  background:
-    radial-gradient(ellipse at center, rgba(0,0,0,0) 35%, rgba(0,0,0,0.45) 100%),
-    repeating-linear-gradient(
-      to bottom,
-      rgba(255,255,255,0.02),
-      rgba(255,255,255,0.02) 1px,
-      rgba(0,0,0,0.02) 3px,
-      rgba(0,0,0,0.02) 4px
-    );
-  mix-blend-mode: overlay;
-  opacity: 0.22;
-}
-
-/* Phosphor glow/fuzz */
-body::after {
-  content: "";
-  pointer-events: none;
-  position: fixed;
-  inset: 0;
-  background: radial-gradient(circle at 30% 20%, rgba(124,255,122,0.10), transparent 40%),
-              radial-gradient(circle at 70% 80%, rgba(124,255,122,0.06), transparent 45%);
-  opacity: 0.35;
-}
-
-/* Tiny flicker animation (optional but fun) */
-@keyframes flicker {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.985; }
-  60% { opacity: 0.97; }
-  70% { opacity: 0.99; }
-}
-body {
-  animation: flicker 6s infinite;
-}
-
-/* ---------- NAV BAR ---------- */
+/* ============================================================
+   NAV BAR (Underground stripe + clean tabs)
+   ============================================================ */
 
 .crt-nav{
-    position: sticky;
-    top: 0;
-    z-index: 50;
-    background: rgba(0,0,0,0.78);
-    backdrop-filter: blur(6px);
-    border-bottom: 1px solid var(--grid);
-    box-shadow: 0 8px 25px rgba(0,0,0,0.55);
-  }
-  
-  .crt-nav__inner{
-    max-width: 980px;
-    margin: 0 auto;
-    padding: 0.65rem 1.1rem;
-    display: grid;
-    grid-template-columns: 1fr auto 1fr;
-    gap: 0.8rem;
-    align-items: center;
-  }
-  
-  .crt-nav__brand{
-    font-family: var(--mono);
-    letter-spacing: 0.05em;
-    color: var(--fg);
-    text-shadow: 0 0 10px var(--glow);
-    display: flex;
-    gap: 0.5rem;
-    align-items: center;
-    white-space: nowrap;
-  }
-  
-  .crt-nav__brand .dot{
-    width: 10px;
-    height: 10px;
-    border-radius: 999px;
-    background: var(--fg);
-    box-shadow: 0 0 10px var(--glow);
-    opacity: 0.9;
-  }
-  
-  .crt-nav__links{
-    display: flex;
-    gap: 0.8rem;
-    justify-content: center;
-  }
-  
-  .crt-nav__links a{
-    padding: 0.25rem 0.55rem;
-    border: 1px solid transparent;
-    border-radius: 8px;
-    border-bottom: none;
-  }
-  
-  .crt-nav__links a.active{
-    border-color: rgba(124,255,122,0.25);
-    background: rgba(124,255,122,0.06);
-    text-shadow: 0 0 10px var(--glow);
-  }
-  
-  .crt-nav__status{
-    justify-self: end;
-    font-size: 0.9em;
-    color: var(--fg-dim);
-    display: flex;
-    gap: 0.45rem;
-    align-items: baseline;
-    white-space: nowrap;
-  }
-  .crt-nav__status .label{
-    opacity: 0.8;
-    border: 1px solid rgba(124,255,122,0.18);
-    padding: 0.05rem 0.35rem;
-    border-radius: 6px;
-  }
-  .crt-nav__status .value{
-    opacity: 0.85;
-  }
-  
-  /* On narrow screens, stack brand + links nicely */
-  @media (max-width: 720px){
-    .crt-nav__inner{
-      grid-template-columns: 1fr;
-      gap: 0.4rem;
-    }
-    .crt-nav__links{
-      justify-content: flex-start;
-      flex-wrap: wrap;
-    }
-    .crt-nav__status{
-      justify-self: start;
-    }
-  }
+  position: sticky;
+  top: 0;
+  z-index: 50;
 
-  .badge{
-    display:inline-block;
-    padding: 0.05rem 0.35rem;
-    border-radius: 6px;
-    border: 1px solid rgba(124,255,122,0.2);
-    background: rgba(124,255,122,0.06);
-    color: var(--fg);
-    font-family: var(--mono2);
+  /* a clean station “nameplate” */
+  background: var(--panel);
+  border-bottom: 1px solid var(--line);
+  box-shadow: 0 10px 22px rgba(0,0,0,0.06);
+}
+
+/* Blue top stripe like the line colour bar */
+.crt-nav::before{
+  content:"";
+  display:block;
+  height: 6px;
+  background: var(--underground-blue);
+}
+
+.crt-nav__inner{
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0.75rem 1.1rem;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 0.8rem;
+  align-items: center;
+}
+
+/* Brand: black text with a red "roundel dot" */
+.crt-nav__brand{
+  font-family: var(--mono);
+  letter-spacing: 0.04em;
+  color: var(--ink);
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.crt-nav__brand .dot{
+  width: 12px;
+  height: 12px;
+  border-radius: 999px;
+  background: var(--roundel-red);
+  box-shadow: 0 0 0 3px rgba(226,24,54,0.18);
+}
+
+/* Links: clean tabs */
+.crt-nav__links{
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.crt-nav__links a{
+  padding: 0.35rem 0.65rem;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  background: transparent;
+  border-bottom: none;
+  color: var(--ink);
+}
+
+.crt-nav__links a:hover{
+  background: rgba(0,0,0,0.04);
+  border-color: rgba(0,0,0,0.08);
+}
+
+.crt-nav__links a.active{
+  background: rgba(0, 54, 136, 0.10);
+  border-color: rgba(0, 54, 136, 0.25);
+  color: var(--underground-blue);
+}
+
+/* Status area: small, tidy */
+.crt-nav__status{
+  justify-self: end;
+  font-size: 0.9em;
+  color: var(--muted);
+  display: flex;
+  gap: 0.45rem;
+  align-items: baseline;
+  white-space: nowrap;
+}
+
+.crt-nav__status .label{
+  color: var(--ink);
+  border: 1px solid rgba(0,0,0,0.12);
+  padding: 0.08rem 0.45rem;
+  border-radius: 999px;
+  background: rgba(0,0,0,0.03);
+}
+
+.crt-nav__status .value{
+  opacity: 0.9;
+}
+
+/* Narrow screens */
+@media (max-width: 720px){
+  .crt-nav__inner{
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
   }
-  .badge--ended{
-    border-color: rgba(255,211,106,0.25);
-    background: rgba(255,211,106,0.06);
-    color: var(--warn);
+  .crt-nav__links{
+    justify-content: flex-start;
   }
-  .badge--dead{
-    border-color: rgba(255,107,107,0.25);
-    background: rgba(255,107,107,0.06);
-    color: var(--danger);
+  .crt-nav__status{
+    justify-self: start;
   }
+}
+
+/* ============================================================
+   Badges (cleaner, less CRT)
+   ============================================================ */
+
+.badge{
+  display:inline-block;
+  padding: 0.12rem 0.5rem;
+  border-radius: 999px;
+  border: 1px solid rgba(0,0,0,0.12);
+  background: rgba(0,0,0,0.03);
+  color: var(--ink);
+  font-family: var(--mono2);
+  font-size: 0.92em;
+}
+
+/* “Ended” -> warm, like advisory */
+.badge--ended{
+  border-color: rgba(226,24,54,0.30);
+  background: rgba(226,24,54,0.08);
+  color: var(--roundel-red);
+}
+
+/* “Dead” -> stronger warning */
+.badge--dead{
+  border-color: rgba(0,0,0,0.35);
+  background: rgba(0,0,0,0.08);
+  color: var(--ink);
+}
+
+/* Optional: make article titles feel like listings */
+article h1{
+  margin-bottom: 0.35rem;
+}
