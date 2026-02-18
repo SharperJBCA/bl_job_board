@@ -9,6 +9,9 @@ collections:
   locations:
     output: true
     permalink: /locations/:name/
+  feed:
+    output: true
+    permalink: /feed/:name/
 
 defaults:
   - scope:
@@ -21,6 +24,10 @@ defaults:
       type: locations
     values:
       layout: location
-
+  - scope:
+      path: ""
+      type: feed
+    values:
+      layout: feed_post
 sass:
   style: compressed

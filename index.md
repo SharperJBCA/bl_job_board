@@ -4,6 +4,7 @@
 ---
 layout: home
 title: Job Board
+nav: jobs
 ---
 
 # Job Board

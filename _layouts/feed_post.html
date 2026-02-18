@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<article>
+  <h1>{{ page.title }}</h1>
+  <p>
+    <strong>Posted:</strong> {{ page.date | date: "%Y-%m-%d %H:%M" }}<br>
+    <strong>Tags:</strong> {% if page.tags %}{{ page.tags | join: ", " }}{% else %}—{% endif %}
+  </p>
+  <hr>
+  {{ content }}
+</article>

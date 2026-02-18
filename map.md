@@ -1,6 +1,7 @@
 ---
 layout: default
 title: World Map
+nav: map
 ---
 
 # World Map

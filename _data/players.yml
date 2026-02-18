@@ -1,0 +1,21 @@
+- name: Liz
+  callsign: "CASSINI"
+  score: 42
+  last_seen: 2026-02-14
+  status: "active"   # active | missing | dead | retired
+  deaths:
+    - date: 2025-11-03
+      type: "Explosive decompression"
+      location: "Docking Collar C"
+  awards:
+    - "Iron Gut"
+    - "Black Box Courier"
+
+- name: Morgan
+  callsign: "BRINEWALKER"
+  score: 31
+  last_seen: 2026-02-02
+  status: "active"
+  deaths: []
+  awards:
+    - "Union Favour"

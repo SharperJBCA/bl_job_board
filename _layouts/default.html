@@ -5,6 +5,28 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   </head>
   <body>
+    <header class="crt-nav">
+      <div class="crt-nav__inner">
+        <div class="crt-nav__brand">
+          <span class="dot"></span>
+          {{ site.title }}
+        </div>
+
+        <nav class="crt-nav__links">
+          <a class="{% if page.nav == 'jobs' %}active{% endif %}" href="{{ '/' | relative_url }}">Jobs</a>
+          <a class="{% if page.nav == 'map' %}active{% endif %}" href="{{ '/map/' | relative_url }}">Map</a>
+          <a class="{% if page.nav == 'players' %}active{% endif %}" href="{{ '/players/' | relative_url }}">Players</a>
+          <a class="{% if page.nav == 'completed' %}active{% endif %}" href="{{ '/completed/' | relative_url }}">Completed</a>
+          <a class="{% if page.nav == 'feed' %}active{% endif %}" href="{{ '/feed/' | relative_url }}">Feed</a>
+        </nav>
+
+        <div class="crt-nav__status">
+          <span class="label">SYNC</span>
+          <span class="value">{{ site.time | date: "%Y-%m-%d %H:%M UTC" }}</span>
+        </div>
+      </div>
+    </header>
+
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
         {{ content }}
