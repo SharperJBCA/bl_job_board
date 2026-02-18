@@ -8,7 +8,10 @@ nav: completed
 
 Closed contracts. Some succeeded. Some… *stopped being possible.*
 
-{% assign closed = site.jobs | where_exp: "j", "j.status == 'complete' or j.status == 'ended'" %}
+{% assign complete = site.jobs | where: "status", "complete" %}
+{% assign ended    = site.jobs | where: "status", "ended" %}
+{% assign closed   = complete | concat: ended %}
+
 {% assign closed_sorted = closed | sort: "closed_date" | reverse %}
 
 {% for job in closed_sorted %}
