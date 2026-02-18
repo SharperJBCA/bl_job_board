@@ -1,6 +1,8 @@
 title: "Prospero Station Job Board"
 theme: minima
 markdown: kramdown
+baseurl: "/bl-job-board"
+url: "https://sharperjbca.github.io"
 
 collections:
   jobs:
