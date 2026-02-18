@@ -2,6 +2,7 @@
 layout: default
 title: World Map
 nav: map
+permalink: /map/
 ---
 
 # World Map
