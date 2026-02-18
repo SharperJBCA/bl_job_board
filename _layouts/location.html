@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<article>
+  <h1>{{ page.title }}</h1>
+
+  {% if page.region %}
+    <p><strong>Region:</strong> {{ page.region }}</p>
+  {% endif %}
+
+  {{ content }}
+
+  <hr>
+  <h2>Jobs here</h2>
+  {% assign local_jobs = site.jobs | where: "location_slug", page.slug %}
+  {% if local_jobs.size > 0 %}
+    <ul>
+      {% for job in local_jobs %}
+        <li><a href="{{ job.url | relative_url }}">{{ job.title }}</a> ({{ job.status }})</li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p>No posted jobs at this location.</p>
+  {% endif %}
+</article>

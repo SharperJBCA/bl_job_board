@@ -1,0 +1,23 @@
+title: "Prospero Station Job Board"
+theme: minima
+markdown: kramdown
+
+collections:
+  jobs:
+    output: true
+    permalink: /jobs/:name/
+  locations:
+    output: true
+    permalink: /locations/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: jobs
+    values:
+      layout: job
+  - scope:
+      path: ""
+      type: locations
+    values:
+      layout: location
