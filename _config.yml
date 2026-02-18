@@ -21,3 +21,6 @@ defaults:
       type: locations
     values:
       layout: location
+
+sass:
+  style: compressed

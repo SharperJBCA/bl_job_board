@@ -1,0 +1,142 @@
+---
+---
+
+/* Pull in the theme’s base CSS first */
+@import "minima";
+
+/* ---------- CRT THEME OVERRIDES ---------- */
+
+:root{
+  --bg: #050806;
+  --fg: #7CFF7A;
+  --fg-dim: rgba(124, 255, 122, 0.72);
+  --grid: rgba(124, 255, 122, 0.08);
+  --glow: rgba(124, 255, 122, 0.35);
+  --warn: #ffd36a;
+  --danger: #ff6b6b;
+  --link: #9CFF9A;
+
+  --mono: "VT323", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+  --mono2: "Share Tech Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+}
+
+html, body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--mono2);
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Make the header/footer behave */
+.site-header, .site-footer {
+  border: none;
+  background: transparent;
+}
+
+/* Main content spacing and “terminal frame” vibe */
+.wrapper {
+  max-width: 980px;
+  padding: 1.2rem 1.4rem;
+  background: rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 0 1px var(--grid), 0 0 35px rgba(0,0,0,0.6);
+  border-radius: 10px;
+}
+
+/* Headings look more retro */
+h1, h2, h3 {
+  font-family: var(--mono);
+  letter-spacing: 0.04em;
+  color: var(--fg);
+  text-shadow: 0 0 8px var(--glow);
+}
+
+p, li {
+  color: var(--fg-dim);
+}
+
+a, a:visited {
+  color: var(--link);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--grid);
+}
+a:hover {
+  text-shadow: 0 0 10px var(--glow);
+  border-bottom-color: rgba(124, 255, 122, 0.4);
+}
+
+/* Horizontal rules = divider line */
+hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--grid), transparent);
+  margin: 1.2rem 0;
+}
+
+/* Code blocks look like terminal panes */
+pre, code {
+  font-family: var(--mono2);
+  font-size: 0.95em;
+}
+pre {
+  background: rgba(0,0,0,0.6);
+  border: 1px solid var(--grid);
+  box-shadow: 0 0 14px rgba(124,255,122,0.08);
+}
+code {
+  background: rgba(0,0,0,0.35);
+  padding: 0.1rem 0.25rem;
+  border: 1px solid rgba(124,255,122,0.12);
+}
+
+/* Lists */
+ul { list-style: "▸ "; }
+li::marker { color: var(--fg); }
+
+/* Make job cards feel like “entries” */
+article h1 {
+  margin-bottom: 0.35rem;
+}
+
+/* ---------- CRT OVERLAY (scanlines + vignette + flicker) ---------- */
+
+/* Scanlines + subtle vignette */
+body::before {
+  content: "";
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  background:
+    radial-gradient(ellipse at center, rgba(0,0,0,0) 35%, rgba(0,0,0,0.45) 100%),
+    repeating-linear-gradient(
+      to bottom,
+      rgba(255,255,255,0.02),
+      rgba(255,255,255,0.02) 1px,
+      rgba(0,0,0,0.02) 3px,
+      rgba(0,0,0,0.02) 4px
+    );
+  mix-blend-mode: overlay;
+  opacity: 0.22;
+}
+
+/* Phosphor glow/fuzz */
+body::after {
+  content: "";
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(circle at 30% 20%, rgba(124,255,122,0.10), transparent 40%),
+              radial-gradient(circle at 70% 80%, rgba(124,255,122,0.06), transparent 45%);
+  opacity: 0.35;
+}
+
+/* Tiny flicker animation (optional but fun) */
+@keyframes flicker {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.985; }
+  60% { opacity: 0.97; }
+  70% { opacity: 0.99; }
+}
+body {
+  animation: flicker 6s infinite;
+}

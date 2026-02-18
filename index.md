@@ -1,3 +1,6 @@
+> PROSPERO STATION // CONTRACTS TERMINAL  
+> ACCESS: PUBLIC // LOGGED: ANON  
+> LAST SYNC: {{ site.time | date: "%Y-%m-%d %H:%M UTC" }}
 ---
 layout: home
 title: Job Board
