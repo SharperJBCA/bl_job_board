@@ -2,6 +2,7 @@
 layout: default
 title: Completed & Ended Jobs
 nav: completed
+permalink: /completed/
 ---
 
 # Completed & Ended Jobs

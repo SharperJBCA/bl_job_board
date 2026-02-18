@@ -2,6 +2,7 @@
 layout: default
 title: Registered Players
 nav: players
+permalink: /players/
 ---
 
 # Registered Players

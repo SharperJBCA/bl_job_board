@@ -2,6 +2,7 @@
 layout: default
 title: Station Feed
 nav: feed
+permalink: /feed/
 ---
 
 # Station Feed
