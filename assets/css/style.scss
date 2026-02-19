@@ -343,3 +343,77 @@ tr:hover td{
 article h1{
   margin-bottom: 0.35rem;
 }
+/* Supabase scheduler */
+.scheduler-block {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 0.9rem;
+  margin: 0.8rem 0;
+  background: #fff;
+}
+
+.scheduler-block label {
+  display: block;
+  margin: 0.35rem 0;
+}
+
+.scheduler-block input,
+.scheduler-block textarea {
+  width: 100%;
+  box-sizing: border-box;
+  font: inherit;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 0.35rem 0.45rem;
+  background: #fff;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.6rem;
+}
+
+button {
+  font: inherit;
+  padding: 0.35rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: rgba(0, 54, 136, 0.08);
+  cursor: pointer;
+}
+
+button:hover {
+  background: rgba(0, 54, 136, 0.2);
+}
+
+.status {
+  margin-top: 0.55rem;
+  padding: 0.35rem 0.55rem;
+  border-radius: 8px;
+  background: rgba(0, 54, 136, 0.08);
+  color: var(--ink);
+}
+
+.status--error {
+  background: rgba(226, 24, 54, 0.1);
+  color: #8a0017;
+}
+
+.sessions-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.session-card {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 0.7rem;
+  margin: 0.7rem 0;
+}
+
+.session-actions {
+  margin-top: 0.6rem;
+}

@@ -33,3 +33,8 @@ defaults:
       layout: feed_post
 sass:
   style: compressed
+
+
+supabase:
+  url: ""
+  anon_key: ""
