@@ -36,5 +36,5 @@ sass:
 
 
 supabase:
-  url: ""
-  anon_key: ""
+  url: "https://yrzwvueictbyolgfhvfv.supabase.co"
+  anon_key: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inlyend2dWVpY3RieW9sZ2ZodmZ2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzE2NjkzMDEsImV4cCI6MjA4NzI0NTMwMX0.H10R5Befp1ktsul31bZgkA4kZ02_IPkEW51wUAJY9no"
